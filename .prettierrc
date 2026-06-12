@@ -1,0 +1,9 @@
+{
+  "tabWidth": 2,
+  "semi": false,
+  "arrowParens": "always",
+  "htmlWhitespaceSensitivity": "ignore",
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "tailwindStylesheet": "./app/globals.css",
+  "tailwindFunctions": ["clsx", "cva", "cn"]
+}
