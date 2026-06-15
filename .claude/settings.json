@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Skill(folder-structure)",
-      "Skill(folder-structure:*)"
-    ]
-  }
-}
