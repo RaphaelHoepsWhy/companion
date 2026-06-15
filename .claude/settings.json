@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"/Users/raphael.hoeps/work/ui-kit/companion/companion/.claude/skills/implement-companion/example-code/components/companion/Companion/components\" \\\\ *)",
+      "Edit(/.claude/skills/implement-companion/**)"
+    ],
+    "additionalDirectories": [
+      "/Users/raphael.hoeps/work/ui-kit/companion/companion/.claude/skills/implement-companion/example-code/components/companion/Companion"
+    ]
+  }
+}
