@@ -18,7 +18,7 @@ export default function CompanionIconButton({
     <button
       {...buttonProps}
       aria-label={label}
-      className="group flex h-full w-12 cursor-pointer items-center justify-center"
+      className="group flex h-full w-12 cursor-pointer items-center justify-center rounded-full outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-inset"
     >
       <span className="flex text-neutral-300 transition-colors group-hover:text-white [&>svg]:size-4.5">
         {icon}

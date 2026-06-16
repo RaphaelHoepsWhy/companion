@@ -23,7 +23,7 @@ export default function CompanionCta({
         {...linkProps}
         tabIndex={isExpanded ? 0 : -1}
         className={cn(
-          "group/letter-bounce group relative flex h-full cursor-pointer items-center gap-1 overflow-hidden rounded-full bg-white px-4 transition-colors duration-300 ease-out",
+          "group/letter-bounce group relative flex h-full cursor-pointer items-center gap-1 overflow-hidden rounded-full bg-white px-4 outline-none transition-colors duration-300 ease-out focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-neutral-600",
           linkProps.className,
         )}
       >

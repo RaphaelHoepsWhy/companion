@@ -28,7 +28,7 @@ export default function CompanionDefaultView() {
           <button
             onClick={onSearchClick}
             aria-label="Search"
-            className="group flex h-full w-12 cursor-pointer items-center justify-center disabled:cursor-default"
+            className="group flex h-full w-12 cursor-pointer items-center justify-center rounded-full outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-inset disabled:cursor-default"
           >
             <Search
               size={18}
@@ -76,7 +76,7 @@ export default function CompanionDefaultView() {
             <div className="flex h-full rounded-full pl-4">
               <button
                 onClick={onSearchClick}
-                className="w-[180px] cursor-pointer text-left text-base leading-none tracking-[0.5px] text-white outline-none"
+                className="w-[180px] cursor-pointer rounded-full text-left text-base leading-none tracking-[0.5px] text-white outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-inset"
               >
                 I&apos;m looking for...
               </button>
